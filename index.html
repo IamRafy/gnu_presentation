@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introduction to GNU | Divya Kamath</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="presentor.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Intro to GNU</h1>
+					<h3>GLUG DSCE</h3>
+					<p>
+						<small>Created by <a href="https://www.facebook.com/divya.kamath.501">Divya Kamath</a> | Powered by <a href='https://github/cyberhck/presentor'>Presentor</a> &amp; <a href='https://github.com/hakimel/reveal.js'>reveal.js</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>GNU, What is it?</h2>
+					<section>
+						<h2>GNU stands for</h2>
+						<h3 class="fragment">GNU's Not Unix</h3>
+						<p class="fragment">
+							An operating system, which is 100% free
+						</p>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Free? Cool!</h2>
+						<p class='fragment'>Free as in "Freedom" or "Free Speech"</p>
+						<p class="fragment">Not as in "Free Beer"</p>
+					</section>
+					<section>
+						<h2>Four Freedoms in GNU</h2>
+						<p class='fragment'>The freedom to <strong>run</strong> the program as you wish</p>
+						<p class="fragment">The freedom to copy the program and <strong>share</strong> it with your friends</p>
+						<p class="fragment">The freedom to <strong>change</strong> the program as you wish, by having full access to source code;</p>
+						<p class="fragment">The freedom to <strong>distribute</strong> an improved version and thus help build the community.</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>History</h2>
+					</section>
+					<section>
+						<h2>Founder</h2>
+						<div class="fragment">
+							<div>
+								<img style="border-radius:50%;" src="image/rms_round.jpg" />
+								<img style="width:230px;" src="image/gnu_head.png" />
+								<img src="image/rms_laptop_love.jpg" />
+							</div>
+							<div>
+								<img src="image/richard-young.jpg" />
+								<img src="image/richard-banner.jpg" />
+								<img src="image/rms_landscape.jpg" />
+							</div>
+						</div>
+					</section>
+					<section>
+						<h2>Richardman Stallman</h2>
+						<p><a href="stallman.org">stallman.org</a></p>
+					</section>
+					<section>
+						<h1>Why, When and How?</h1>
+						<h4 class="fragment">Who doesn't like a video?</h4>
+					</section>
+					<section data-background-video="image/rms_video.mkv" data-background-color="#000000">
+						
+					</section>
+				</section>
+
+				<section>
+					<h2>Open source</h2>
+					<p class="fragment">
+						Is something whose source code is open. It doesn't necessarily mean it is free.
+					</p>
+					<p class="fragment">The license determines if a software is free or not</p>
+
+				</section>
+
+				<section>
+					<h2>Some free softwares</h2>
+					<p class="fragment">Android</p>
+					<p class="fragment">Linux</p>
+					<p class="fragment">Mozilla Thunderbird</p>
+					<p class="fragment">Mozilla Firefox</p>
+					<p class="fragment">Open Office</p>
+					<p class="fragment">PHP</p>
+					<p class="fragment">MySQL</p>
+					<p class="fragment">And much more...</p>
+				</section>
+
+				<section>
+					<h2>Benifits of free softwares</h2>
+					<p class="fragment">Reliability</p>
+					<p class="fragment">Stability</p>
+					<p class="fragment">Auditability</p>
+					<p class="fragment">Cost</p>
+					<p class="fragment">Flexibility and Freedom</p>
+					<p class="fragment">Support and Accountability</p>
+				</section>
+
+				<section>
+					<img src="image/i_want_gnu.png" alt="">
+				</section>
+
+
+				<section>
+					<img src="image/we_install_gnu.png" alt="">
+				</section>
+				<section>
+					<img src="image/thankyou.png">
+					<p>Powered by <a href='https://github/cyberhck/presentor'>Presentor</a> &amp; <a href='https://github.com/hakimel/reveal.js'>reveal.js</a></p>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
